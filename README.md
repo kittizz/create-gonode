@@ -194,6 +194,12 @@ export default defineConfig([
 - Generated JavaScript is larger than hand-written code
 - No goroutine support (JavaScript is single-threaded)
 
+## Example Projects
+
+Projects built with create-gonode:
+
+- **[sentence-cipher](https://github.com/kittizz/sentence-cipher)** - A Go/Node.js library that encodes data into natural-looking English sentences for steganography. Hide your secret messages in plain sight!
+
 ## Tech Stack
 
 - [GopherJS](https://github.com/gopherjs/gopherjs) - Go to JavaScript compiler
