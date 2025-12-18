@@ -1,5 +1,5 @@
 gen/
 go.*
 dist/
-src/lib/lib.js
-src/lib/lib.js.map
+src/*/lib.js
+src/*/lib.js.map
