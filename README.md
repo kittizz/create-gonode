@@ -2,6 +2,7 @@
 
 Build Node.js modules with Go. Write your logic in Go, compile to JavaScript, and publish as npm package with full TypeScript support.
 
+
 ## Features
 
 - 🚀 **Go to JavaScript** - Compile Go code to JavaScript using GopherJS
@@ -10,6 +11,12 @@ Build Node.js modules with Go. Write your logic in Go, compile to JavaScript, an
 - 🌐 **Multi-platform** - Build for Node.js and Browser
 - ⚡ **Modern Tooling** - Powered by tsdown (Rolldown-based bundler)
 - 🔧 **npm Scripts** - Simple build automation with npm/pnpm
+
+## Example Projects
+
+Projects built with create-gonode:
+
+- **[sentence-cipher](https://github.com/kittizz/sentence-cipher)** - A Go/Node.js library that encodes data into natural-looking English sentences for steganography. Hide your secret messages in plain sight!
 
 ## How It Works
 
@@ -193,12 +200,6 @@ export default defineConfig([
 - Some Go packages may not be compatible with GopherJS
 - Generated JavaScript is larger than hand-written code
 - No goroutine support (JavaScript is single-threaded)
-
-## Example Projects
-
-Projects built with create-gonode:
-
-- **[sentence-cipher](https://github.com/kittizz/sentence-cipher)** - A Go/Node.js library that encodes data into natural-looking English sentences for steganography. Hide your secret messages in plain sight!
 
 ## Tech Stack
 
